@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Navigation from './Navigation';
 
 function Header(props) {
   
@@ -6,8 +7,9 @@ function Header(props) {
   return (
     <>
       <div>
-        <p>Header goes here</p>
+        <h1>Zack Schreier</h1>
       </div>
+      <Navigation active={props.active} setActive={props.setActive}/>
     </>
   );
 }

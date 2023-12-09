@@ -1,13 +1,25 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function AboutMe(props) {
   
-  return (
+  const [activeCheck, setActiveCheck] = useState(true); 
+
+  useEffect(() => {
+    if(props.active === 'AboutMe'){
+      setActiveCheck(true)
+    }else{
+      setActiveCheck(false)
+    }
+  }, [props.active]);
+
+  return activeCheck ? (
     <>
       <div>
-        <p>stuff will go here</p>
+        <p>AboutMe goes here</p>
       </div>
     </>
+  ) : (
+    <></>
   )
 
 }
