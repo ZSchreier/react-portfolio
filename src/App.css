@@ -18,3 +18,8 @@
 .schedule {
   background-color: tan;
 }
+
+.footer {
+  display:flex;
+  justify-content: space-evenly;
+}
