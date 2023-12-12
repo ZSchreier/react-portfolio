@@ -10,6 +10,6 @@ The goal of this project was to create a portfolio using react with a navbar tha
 
 # Preview
 
-The deployed portfolio can be found here: [Portfolio - Zack Schreier](https://google.com)
+The deployed portfolio can be found here: [Portfolio - Zack Schreier](https://react-portfolio-eta-sage.vercel.app/)
 
 The following screenshot provides a quick look at the initial rendering of the page: ![An image of the portfolio upon first loading up the page](./src/assets/site-example.PNG)
