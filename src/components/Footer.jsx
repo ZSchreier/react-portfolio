@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// please note that I am still setting up my LinkedIn page and do not have another account at this moment, hence why the footer links redirect to google
 
 function Footer() {
   

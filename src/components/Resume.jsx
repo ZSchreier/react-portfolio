@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Download from './Download'
 
 function Resume(props) {
   
@@ -15,7 +16,20 @@ function Resume(props) {
   return activeCheck ? (
     <>
       <div>
-        <p>Resume goes here</p>
+        <Download />
+        <h4>Current Proficiencies:</h4>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+        <h4>Acquainted With/Learning:</h4>
+        <ul>
+          <li>Mongoose</li>
+          <li>Netlify</li>
+          <li>Heroku</li>
+          <li>Bootstrap</li>
+          <li>Sequelize</li>
+        </ul>
       </div>
     </>
   ) : (

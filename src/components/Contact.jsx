@@ -18,6 +18,7 @@ function Contact(props) {
     setContactInfo({...contactInfo, [event.target.name]: event.target.value})
   }
 
+  // self-made form validation, will be re-made later for cleaner appearance
   function handleSubmit(event){
     event.preventDefault()
 

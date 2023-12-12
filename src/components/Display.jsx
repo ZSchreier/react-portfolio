@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';

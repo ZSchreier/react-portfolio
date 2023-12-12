@@ -1,12 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav'
 
 function Navigation(props) {
   
-  function checkClick(e){
-    console.log(e.target.value)
-    props.setActive(e.target.value)
-  }
+  // this useEffect changes the props, which in turn changes which component is currently rendered
 
   useEffect(() => {
     console.log(props.active)
